@@ -1,4 +1,4 @@
-import 'package:animation/pages/explicit%20animation/intro_transition.dart';
+import 'package:animation/pages/explicit%20animation/page_transition_page1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,11 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "animation test",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(brightness: Brightness.dark),
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Animation Example')),
-        body: IntroTransition(),
-      ),
+
+      home: PageTransitionPage1(),
     );
   }
 }
