@@ -1,4 +1,4 @@
-import 'package:animation/pages/implicit%20animation/animated_textstyle.dart';
+import 'package:animation/pages/explicit%20animation/intro_transition.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(brightness: Brightness.dark),
       home: Scaffold(
         appBar: AppBar(title: const Text('Animation Example')),
-        body: AnimatedTextstyleWidget(),
+        body: IntroTransition(),
       ),
     );
   }
